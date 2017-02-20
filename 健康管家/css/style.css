@@ -1,0 +1,41 @@
+@charset "utf-8";
+a:focus{
+    outline:none;
+}
+#myCarousel {
+    margin:20px 0 30px 0;
+}
+.carousel-inner .item img {
+    width:98%;
+    height:380px;
+    margin: 0 auto;
+}
+.container-fluid .row{
+    margin:40px 0;
+}
+div.intro{
+    margin:30px 0;
+}
+div.container .maodian{
+    list-style:none;
+}
+div.container .maodian li{
+    display:inline-block;
+    padding:10px 15px;
+
+}
+div.container .maodian li:hover{
+    background:#3c763d;
+}
+div.container .maodian li:hover a{
+    text-decoration: none;
+    color:white;
+}
+.footer{
+    background-color: #666;
+    border-top: 1px solid #ccc;
+    color: #ccc;
+    margin-top:20px;
+    padding: 20px 0;
+    text-align:center;
+}

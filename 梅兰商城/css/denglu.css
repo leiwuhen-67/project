@@ -1,0 +1,79 @@
+div#main{
+    width:1200px;
+    display:inline-block;
+}
+div.login{
+    width:620px;
+    background: url(../images/login_bg.gif) bottom no-repeat;
+    height: 26px;
+    margin-top: 22px;
+}
+div.login ul{
+    padding-left:200px;
+}
+div.login ul li{
+    display:inline-block;
+    width: 116px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    background: url(../images/login.gif) no-repeat 0 0;
+    margin-right: 6px;
+    cursor: pointer;
+}
+div.login ul li:first-child{
+    background-position: -122px 0;
+}
+div.login ul li a.a1{
+    text-decoration:none;
+    color:#fff;
+}
+div.login ul li a.a2{
+    text-decoration:none;
+    color:#666;
+}
+div.form1{
+    padding-left:200px;
+    padding-top:35px;
+    float:left;
+}
+input#user{
+    width:180px;
+    height:25px;
+    border: 1px solid #ccc;
+}
+input.password{
+    width:215px;
+    height:25px;
+    border: 1px solid #ccc;
+}
+form label.label1{
+    padding-right:10px;
+}
+form label.label2{
+    padding-right:26px;
+}
+input.checkbox{
+    margin-left:60px;
+}
+input#tijiao{
+    background:url("../images/login_submit.gif");
+    width: 94px;
+    height: 28px;
+    border: none;
+    cursor: pointer;
+    margin-left:60px;
+}
+div.form1 a{
+    color: #9e9e9e;
+    text-decoration:none;
+    margin-left:60px;
+}
+div.form1 a:last-child{
+    margin-left:15px;
+}
+div.ecmoban{
+   float:right;
+}

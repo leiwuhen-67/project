@@ -1,0 +1,245 @@
+*{
+    margin:0;
+    padding:0;
+}
+div.header{
+    width:100%;
+    height:452px;
+    background:url(../images/header_bg.png);
+}
+div.header .top{
+    width:980px;
+    height:100px;
+}
+div.header .logo{
+    width: 291px;
+    padding: 25px 0 0 210px;
+    float: left;
+}
+div.header .logo img{
+    width:291px;
+    height:42px;
+}
+div.header .logo span{
+    float: right;
+    font-size: 14px;
+    color: #ccc;
+}
+div.header form{
+    display: block;
+    float: right;
+    position: absolute;
+    right: 200px;
+    top: 38px;
+}
+div.header form .text{
+    height: 15px;
+    width: 180px;
+    background: #161B1F;
+    border: 1px solid #0B0E10;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+}
+div.header form .submit{
+    height: 28px;
+    width: 80px;
+    cursor: auto;
+}
+div.nav{
+    width:980px;
+    height:50px;
+    margin:0 auto;
+}
+div.nav ul li{
+    float:left;
+    display: block;
+    height: 37px;
+    line-height:37px;
+    width: 103px;
+    margin-right:10px;
+}
+div.nav ul li a{
+    text-decoration:none;
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    width: 103px;
+    color: black;
+    font-weight: bold;
+    font-size:13px;
+    margin-top: 10px;
+    text-align: center;
+}
+div.nav ul li a:hover{
+    background:url("../images/hover.png");
+}
+div.main{
+    width:900px;
+    height:301px;
+    margin:0 auto;
+}
+div.main a img{
+    margin-top:50px;
+    margin-left:-10px;
+}
+div.main ul{
+    list-style:none;
+    position:absolute;
+    top: 200px;
+    left: 595px;
+}
+div.main ul li{
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 16px;
+}
+div.main ul li h3{
+    font-size:24px;
+}
+div.main ul li a{
+    text-decoration:none;
+    display:block;
+    width:103px;
+    height:27px;
+    font-weight: bold;
+    color: white;
+    line-height: 27px;
+    text-align:center;
+    background:url("../images/default.png");
+}
+div.main ul li a:hover{
+    background:url("../images/hover.png");
+}
+div.content{
+    width:920px;
+    height:850px;
+    margin:0 auto;
+}
+div.content .left{
+    float:left;
+}
+div.content .left1 ul{
+    margin-top:25px;
+    list-style:none;
+}
+div.content .left1 ul li{
+    margin-bottom:20px;
+}
+div.content .left1 ul li h2{
+    width:620px;
+}
+div.content .left1 ul li a{
+    text-decoration:none;
+    color: #0074c5;
+}
+div.content .left1 ul li.li1{
+    font-size:13px;
+    margin-bottom:25px;
+}
+div.left2{
+    width:620px;
+    height:701px;
+}
+div.left2 ul li{
+    display:inline-block;
+    width:270px;
+    height:170px;
+    background: #F1F2EA;
+    padding: 6px;
+    border:1px solid #D5D7CA;
+}
+div.left2 ul li:nth-child(2n+1){
+    margin-right:17px;
+    margin-bottom:25px;
+}
+div.left2 ul li img{
+    width:270px;
+    height:130px;
+}
+div.left2 ul li p{
+    font-size:16px;
+    color: black;
+    margin-top: 5px;
+    font-weight: bold;
+}
+a.more{
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    width:103px;
+    height:27px;
+    line-height:27px;
+    background:url("../images/default.png");
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+}
+div.right{
+    float: right;
+    width: 240px;
+    height: 850px;
+}
+div.right .right1{
+    width:240px;
+    height:285px;
+}
+div.right .right1 h2{
+    font-size: 24px;
+    margin-top: 25px;
+}
+div.right .right1 ul{
+    list-style:none;
+}
+div.right .right1 ul li{
+    height:73px;
+    padding-top:12px;
+    border-bottom: 1px dashed #ccc;
+}
+div.right .right1 ul li a{
+    color: #0074C5;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:bold;
+}
+div.right .right1 ul li p{
+    font-size:13px;
+}
+div.right .right2 ul{
+    list-style:none;
+}
+div.right .right2 ul li{
+    height:80px;
+    background:url("../images/twitter.png") no-repeat 160px center;
+}
+div.right .right2 ul li p{
+    font-size:34px;
+    padding: 5px 0 5px 0;
+}
+div.right2 ul li span{
+    font-size: 20px;
+    padding: 5px 0 0 5px;
+}
+div.div{
+    clear:both;
+}
+div.footer{
+    height:100px;
+    background:url("../images/footer_bg.jpg");
+}
+div.footer ul{
+    text-align:center;
+    padding-top:13px;
+}
+div.footer ul li{
+    display:inline-block;
+    font-size:14px;
+}
+div.footer ul li a{
+    padding-left:13px;
+    color:white;
+}
+div.footer ul li span{
+    color: white;
+}

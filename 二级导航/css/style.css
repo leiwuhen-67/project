@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-decoration:none;
+}
+div#nav{
+    width:1200px;
+    height:40px;
+    margin:0 auto;
+    line-height:40px;
+    background:#e4393c;
+    position:relative;
+}
+div#nav #category{
+    width:210px;
+    height:40px;
+    background:#CD292B;
+    position:absolute;
+}
+div#nav #category .all{
+    text-align:center;
+}
+#category #allsort{
+    display:none;
+    width:206px;
+    height:402px;
+    padding:3px 0;
+    border: 2px solid #CD292B;
+    position: absolute;
+    left: 0;
+    top: 38px;
+    background-color: #fafafa;
+}
+#category #allsort .item{
+    width: 208px;
+    height: 28px;
+    border-bottom: 1px solid #fff;
+}
+#category #allsort .item span{
+    height: 28px;
+    line-height: 28px;
+    width: 206px;
+}
+#category #allsort .item span h3{
+    width:197px;
+    font-size:14px;
+    font-weight: normal;
+    color: #333;
+    padding-left:10px;
+}
+#category #allsort .on span h3{
+    border:solid #ddd;
+    border-width:1px 0;
+    background: #fff;
+}
+#category #allsort .item span h3 a{
+    color: #333;
+}
+#category #allsort .item span h3 a:hover{
+    color:#E4393C;
+}
+#category.on #allsort{
+    display:block;
+}
+#category #allsort .item .erji{
+    display:none;
+    width:680px;
+    height:388px;
+    padding:10px;
+    background:#fff;
+    border:1px solid #ddd;
+    position:absolute;
+    left:206px;
+    top:0;
+}
+#category.on #allsort .on .erji{
+    display:block;
+}
+div.navitems{
+    height:40px;
+}
+div.navitems li{
+    float: left;
+}
+div.navitems li:first-child{
+    margin-left:210px;
+}
+div.navitems li a{
+    display:inline-block;
+    padding:0 30px;
+    height: 40px;
+    color: #fff;
+    font:700 15px/40px "microsoft yahei";
+    text-decoration: none;
+}
+div.navitems li a:hover{
+    background: #a40000;
+}
