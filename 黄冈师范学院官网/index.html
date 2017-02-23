@@ -344,5 +344,22 @@
         </div>
     </div>
 </div>
+	<a href="###" id="returnTop" style="bottom: 10px;position: fixed;right: 10px;font-size: 16px;padding:5px 8px;display:block;border-radius:10px;background:#aaa;color:white">回到顶部</a>
+	<script>
+		  $(function(){
+			 $("#returnTop").hide();
+		  });
+		  $(window).scroll(function(){ 
+			 if ($(window).scrollTop()>100){ 
+				 $("#returnTop").fadeIn(1000); 
+			 }else{ 
+				  $("#returnTop").fadeOut(1000); 
+				  } 
+		  }); 
+		  $("#returnTop").click(function(){ 
+			   $('body,html').animate({scrollTop:0},400); 
+			   return false; 
+		  }); 
+	</script>
 </body>
 </html>
