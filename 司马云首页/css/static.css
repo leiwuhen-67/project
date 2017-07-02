@@ -1,0 +1,269 @@
+.pan{
+	position:absolute;
+}
+.ball_c{
+	position: absolute;   
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    z-index:1000;
+}
+.ball_c div{
+	position:absolute;
+}
+.ball_c .p_trade{
+    position: absolute;
+    z-index:1000;
+    font-size: 20px;
+    color: #fff;
+}
+.ball_base{
+	position:relative;
+	z-index:1000;
+}
+.ball_base .ball p{
+	color:#fff;
+	font-size:16px;
+}
+.container{
+	bottom:2px;
+}
+@media screen and (min-width:1620px){
+	.pan{
+		width: 1150px;
+	    height: 668px;
+	    top: 136px;
+	    left: 152px;
+	    background-image:url("../img/1920/bg_track.png");
+	}
+	.ball_c{
+		width: 232px;
+	    height: 232px;
+	    line-height:232px;
+	    top: 304px;
+    	left: 563px;	
+    	background-image:url("../img/1920/2.png");
+	}
+	.ball_base{
+		width: 290px;
+    	height: 210px;
+	}
+	.ball_c .rotate_circle{
+		width:232px;
+		height:232px;
+		background-image: url("../img/1920/rotate_circle.png")
+	}
+	.ball_c .p_trade{
+		left: 78px;
+	    top: -3px;
+	}
+	.ball_c .icon_trade{
+		top: 69px;
+	    left: 91px;
+	}
+	.ball_c .trade_bottom2{
+		width:232px;
+		height:232px;
+		background-image:url("../img/1920/trade_bottom2.png");
+	}
+	.ball_c .trade_circle{
+		width:322px;
+		height:206px;
+		left: -60px;
+    	top: -37px;
+		background-image:url("../img/1920/trade_circle.png");
+	}
+	.ball_base .ball{
+		width: 290px;
+    	height: 210px;
+	}
+	.ball_1{
+		left: 270px;
+    	top: 183px;
+	}
+	.ball_1 .ball{
+		background-image:url("../img/1920/demandCenter.png");
+	}
+	.ball_1 .ball .p1{
+		position: absolute;
+	    top: 74px;
+	    left: 123px;
+	}
+	.ball_1 .ball .icon1{
+		position:absolute;
+		left: 130px;
+	    top: 43px;
+	}
+	.ball_2{
+		top: 331px;
+    	left: 203px;
+	}
+	.ball_2 .ball{
+		background: url("../img/1920/worldService.png")
+	}
+	.ball_2 .ball .p2{
+		position: absolute;
+		top: 82px;
+	    left: 137px;
+	}
+	.ball_2 .ball .icon2{
+		position:absolute;
+		top: 50px;
+	    left: 145px;
+	}
+	.ball_3{
+		left: 729px;
+    	top: 64px;
+	}
+	.ball_3 .ball{
+		background: url("../img/1920/integratedWorld.png")
+	}
+	.ball_3 .ball .p3{
+		position:absolute;
+		top: 95px;
+	    left: 128px;
+	}
+	.ball_3 .ball .icon3{
+		position:absolute;
+		top: 64px;
+	    left: 136px;
+	}
+	.ball_4{
+		bottom: 519px;
+    	left: 817px;
+	}
+	.ball_4 .ball{
+		background: url("../img/1920/developWorld.png")
+	}
+	.ball_4 .ball .p4{
+		position:absolute;
+		top: 83px;
+	    left: 130px;
+	}
+	.ball_4 .ball .icon4{
+		position:absolute;
+		left: 138px;
+	    top: 50px;
+	}
+}
+@media screen and (max-width: 1619px){
+	.pan{
+		width:860px;
+		height:490px;
+		top: 50px;
+    	left: 152px;
+    	background-image:url("../img/small/bg_track.png");
+	}
+	.ball_c{
+		width: 192px;
+	    height: 192px;
+	    line-height:192px;
+	    top: 162px;
+	    left: 484px;
+	    left:484px\0;
+	    background-image:url("../img/small/2.png");
+	}
+	.ball_base{
+		width:210px;
+		height:170px;
+	}
+	.ball_c .rotate_circle{
+		width:192px;
+		height:192px;
+		background-image:url("../img/small/rotate_circle.png");
+	}
+	.ball_c .p_trade{
+		left: 56px;
+	    top: -8px;
+	}
+	.ball_c .icon_trade{
+		top: 48px;
+	    left: 67px;
+	}
+	.ball_c .trade_bottom2{
+		width:192px;
+		height:192px;
+		top:0px;
+		left:-14px;
+		background-image:url("../img/small/trade_bottom2.png");
+	}
+	.ball_c .trade_circle{
+		width:300px;
+		height:230px;
+		left: -65px;
+    	top: -34px;
+		background-image:url("../img/small/trade_circle.png");
+	}
+	.ball_base .ball{
+		width: 210px;
+	    height: 170px;
+	}
+	.ball_1{
+		left: 262px;
+    	top: 83px;
+	}
+	.ball_1 .ball{
+    	background-image:url("../img/small/demandCenter.png");
+	}
+	.ball_1 .ball .p1{
+		position: absolute;
+	    top: 61px;
+	    left: 59px;
+	}
+	.ball_1 .ball .icon1{
+		position:absolute;
+		left: 68px;
+	    top: 30px;
+	}
+	.ball_2{
+		top: 194px;
+    	left: 203px;
+	}
+	.ball_2 .ball{
+    	background-image:url("../img/small/worldService.png");
+	}
+	.ball_2 .ball .p2{
+		position: absolute;
+		top: 57px;
+	    left: 67px;
+	}
+	.ball_2 .ball .icon2{
+		position:absolute;
+		top: 26px;
+	    left: 73px;
+	}
+	.ball_3{
+		left: 639px;
+    	top: -28px;
+	}
+	.ball_3 .ball{
+		background-image:url("../img/small/integratedWorld.png");
+	}
+	.ball_3 .ball .p3{
+		position:absolute;
+		top: 80px;
+	    left: 66px;
+	}
+	.ball_3 .ball .icon3{
+		position:absolute;
+		top: 50px;
+	    left: 72px;
+	}
+	.ball_4{
+		bottom: 507px;
+    	left: 770px;
+	}
+	.ball_4 .ball{
+		background-image:url("../img/small/developWorld.png");
+	}
+	.ball_4 .ball .p4{
+		position:absolute;
+		top: 86px;
+	    left: 66px;
+	}
+	.ball_4 .ball .icon4{
+		position:absolute;
+		left: 72px;
+	    top: 56px;
+	}
+}
