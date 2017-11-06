@@ -1,0 +1,17 @@
+@charset "utf-8";
+body,div,img{
+	margin:0;
+	padding:0;
+}
+#container{
+	width:1100px;
+	height:450px;
+	margin:10px auto;
+	position:relative;
+	overflow:hidden;
+}
+img{
+	position:absolute;
+	display: block;
+	left:0px;
+}
