@@ -1,0 +1,53 @@
+/* pages/my/my.wxss */
+.header{
+  position:relative;
+  width:100%;
+  height:388rpx;
+  background: url("http://image.xmeibao.com/7d04c728b7de413d8a3434c9e3ade81a.png")
+}
+.header text{
+  display: block;
+  position:absolute;
+  width:100%;
+  height:50rpx;
+  top:278rpx;
+  text-align:center;
+  font-family: PingFangSC-Regular;
+  font-size:18px;
+  line-height: 25px;
+  color:#fff;
+}
+.gap{
+  width:100%;
+  height:20rpx;
+  background: #F8F8F8;
+}
+.weui-cell__bd{
+  font-size:14px;
+  color:#000;
+}
+.weui-cell__hd image{
+  margin-right: 16px;
+  vertical-align: middle;
+  width:20px; 
+  height: 20px;
+}
+.btn-area{
+  height:98rpx;
+}
+.btn-area navigator{
+  width:33.3%;
+  height:98rpx;
+  float:left;
+  text-align: center;
+  font-size:10px;
+  font-family: PingFangSC-Regular;
+  color:#9B9B9B;
+  position:relative;
+}
+.btn-area navigator view{
+  width:24px;
+  position:absolute;
+  left:50%;
+  margin-left:-12px;
+}

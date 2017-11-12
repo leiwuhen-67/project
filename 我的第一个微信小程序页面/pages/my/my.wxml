@@ -1,0 +1,84 @@
+<!--pages/my/my.wxml-->
+<view class="header">
+  <image src="http://image.xmeibao.com/8538ffaeca29498581eba784ef672732.png" style="position:absolute;width:140rpx;height:140rpx;left:306rpx;bottom:128rpx"></image>
+  <text>风中飞舞的屁</text>
+</view>
+<view class="gap"></view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+      <view class="weui-cell__hd">
+          <image src="http://image.xmeibao.com/127f9237ed3c4d1690acb55788aafd8f.png"></image>
+      </view>
+      <view class="weui-cell__bd">我的收藏</view>
+      <view class="weui-cell__ft"><image src="http://image.xmeibao.com/dbf7a88a50464dc1b6849f1e79a2c2d7.png" style="width:20px;height:20px;vertical-align: middle;"></image></view>
+  </view>
+  <view class="weui-cell">
+      <view class="weui-cell__hd">
+          <image src="http://image.xmeibao.com/c65cb6338f454f68b96b84d1feb2ba78.png"></image>
+      </view>
+      <view class="weui-cell__bd">我的评论</view>
+      <view class="weui-cell__ft"><image src="http://image.xmeibao.com/dbf7a88a50464dc1b6849f1e79a2c2d7.png" style="width:20px;height:20px;vertical-align: middle;"></image></view>
+  </view>
+  <view class="weui-cell">
+      <view class="weui-cell__hd">
+          <image src="http://image.xmeibao.com/583a1b7e828441939c37bbd0a2c9a970.png"></image>
+      </view>
+      <view class="weui-cell__bd">我的点赞</view>
+      <view class="weui-cell__ft"><image src="http://image.xmeibao.com/dbf7a88a50464dc1b6849f1e79a2c2d7.png" style="width:20px;height:20px;vertical-align: middle;"></image></view>
+  </view>
+  <view class="weui-cell">
+      <view class="weui-cell__hd">
+          <image src="http://image.xmeibao.com/0782ba87456f4a358363eb596a12936f.png"></image>
+      </view>
+      <view class="weui-cell__bd">浏览历史</view>
+      <view class="weui-cell__ft"><image src="http://image.xmeibao.com/dbf7a88a50464dc1b6849f1e79a2c2d7.png" style="width:20px;height:20px;vertical-align: middle;"></image></view>
+  </view>
+</view>
+<view class="gap"></view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+      <view class="weui-cell__hd">
+          <image src="http://image.xmeibao.com/f6ff357e81ac428a8322e4d29ca55a1b.png"></image>
+      </view>
+      <view class="weui-cell__bd">我的订单</view>
+      <view class="weui-cell__ft"><image src="http://image.xmeibao.com/dbf7a88a50464dc1b6849f1e79a2c2d7.png" style="width:20px;height:20px;vertical-align: middle;"></image></view>
+  </view>
+</view>
+<view class="gap"></view>
+<view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+        <view class="weui-cell__hd">
+            <image src="http://image.xmeibao.com/f7d882d0c851473ca59969e695bff8cd.png"></image>
+        </view>
+        <view class="weui-cell__bd">设置</view>
+        <view class="weui-cell__ft"><image src="http://image.xmeibao.com/dbf7a88a50464dc1b6849f1e79a2c2d7.png" style="width:20px;height:20px;vertical-align: middle;"></image></view>
+    </view>
+    <view class="weui-cell">
+        <view class="weui-cell__hd">
+            <image src="http://image.xmeibao.com/38c63fcb07294772ac5a786896f675bf.png"></image>
+        </view>
+        <view class="weui-cell__bd">绑定手机号</view>
+        <view class="weui-cell__ft"><image src="http://image.xmeibao.com/dbf7a88a50464dc1b6849f1e79a2c2d7.png" style="width:20px;height:20px;vertical-align: middle;"></image></view>
+    </view>
+</view>
+<view style="width:100%;height:162rpx;background:#f8f8f8"></view>
+<view class="btn-area">
+  <navigator url="" hover-class="navigator-hover" open-type="switchTab">
+    <view>
+      <image src="http://image.xmeibao.com/5107d377b7b649379fdf696302239e63.png" style="width:24px;height:24px"></image>
+      发现
+    </view>
+  </navigator>
+  <navigator url="" open-type="switchTab" hover-class="navigator-hover">
+     <view>
+      <image src="http://image.xmeibao.com/64ce69642b2042dfb086261316efa41f.png" style="width:24px;height:24px"></image>
+      长草
+    </view>
+  </navigator>
+  <navigator url="" open-type="switchTab" hover-class="navigator-hover">
+  <view>
+      <image src="http://image.xmeibao.com/508f834c3ca947eba79e71dea9f446bb.png" style="width:24px;height:24px"></image>
+      我的
+    </view>
+  </navigator>
+</view>
